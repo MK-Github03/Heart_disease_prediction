@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 
 # Loading the dataset
-file_path = "homeworks/DSC_540/heart.csv"
+file_path = "heart.csv"
 df = pd.read_csv(file_path)
 
 # Display the first few rows of the dataset to understand its structure
