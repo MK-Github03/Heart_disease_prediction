@@ -173,7 +173,7 @@ display(results_df)
 # Cell
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-import pandas as pd
+
 
 #splitting the dataset into training and testing
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
@@ -223,7 +223,6 @@ display(tuning_results)
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.neural_network import MLPClassifier
-import pandas as pd
 
 # Splitting the dataset into training and testing
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
@@ -298,7 +297,7 @@ display(tuning_results)
 from sklearn.inspection import permutation_importance
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pandas as pd
+
 
 # Retrieve feature importances for Random Forest and Gradient Boosting
 rf_importance_df = pd.DataFrame({"Feature": X.columns, "Importance": best_rf_model.feature_importances_}).sort_values(by="Importance", ascending=False)
