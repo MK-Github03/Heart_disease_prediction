@@ -33,16 +33,16 @@ Heart disease is one of the major global health concerns. This project investiga
 
  **Project Workflow**  
 **1️-  Data Preprocessing**  
-✔ No missing values detected  
-✔ Encoded categorical variables  
-✔ Normalized numerical features where necessary  
-✔ Split data into **80% training and 20% testing**  
+ missing values has been fixed
+ Encoded categorical variables  
+ Normalized numerical features where necessary  
+ Split data into **80% training and 20% testing**  
 
  **2️ - Exploratory Data Analysis (EDA)**  
-✔ Older patients with lower max heart rates have a higher risk  
-✔ ST Slope and Chest Pain Type were strong predictors  
-✔ Some cholesterol values were extreme, but retained for analysis  
-✔ **Feature Selection:** Used **Random Forest Feature Importance** to rank key features  
+ Older patients with lower max heart rates have a higher risk  
+ ST Slope and Chest Pain Type were strong predictors  
+ Some cholesterol values were extreme, but retained for analysis  
+ **Feature Selection:** Used **Random Forest Feature Importance** to rank key features  
 
  **3️ - Model Training & Evaluation**  
 Five models were tested:  
@@ -54,31 +54,31 @@ Five models were tested:
 | **Gradient Boosting** | **88.6%** | **89.7%** | **93.9%** |  
 | MLP                | 83.7%    | 84.5%   | 90.5%   |  
 
-### **4️⃣ Hyperparameter Tuning**  
-✔ **Gradient Boosting Best Parameters:**  
+### **4️-  Hyperparameter Tuning**  
+ **Gradient Boosting Best Parameters:**  
    - Learning Rate: 0.1  
    - Max Depth: 3  
    - Number of Estimators: 200  
-✔ Optimized using **GridSearchCV & RandomizedSearchCV**  
+ Optimized using **GridSearchCV & RandomizedSearchCV**  
 
-### **5️⃣ Model Deployment & Applications**  
-✔ **Clinical Decision Support:** Assists doctors in diagnosis  
-✔ **Wearable Health Devices:** Smartwatches & ECG monitoring  
-✔ **Public Health Analytics:** Identifies high-risk populations for early intervention  
+### **5️ - Model Deployment & Applications**  
+ **Clinical Decision Support:** Assists doctors in diagnosis  
+ **Wearable Health Devices:** Smartwatches & ECG monitoring  
+ **Public Health Analytics:** Identifies high-risk populations for early intervention  
 
 ---
 
 ## **Challenges & Considerations**  
-✔ **Dataset Imbalance:** More patients with heart disease than without; fixed using stratified sampling  
-✔ **Computational Costs:** Gradient Boosting required high processing power  
-✔ **Ethical Considerations:** AI in healthcare needs transparency & regulatory compliance  
+ **Dataset Imbalance:** More patients with heart disease than without; fixed using stratified sampling  
+ **Computational Costs:** Gradient Boosting required high processing power  
+ **Ethical Considerations:** AI in healthcare needs transparency & regulatory compliance  
 
 ---
 
  **Future Work & Improvements**  
-🚀 **Expand the dataset** with real-world patient data  
-🚀 **Fine-tune deep learning models for higher accuracy**  
-🚀 **Develop a web app for real-time heart disease risk prediction**  
+ **Expand the dataset** with real-world patient data  
+ **Fine-tune deep learning models for higher accuracy**  
+ **Develop a web app for real-time heart disease risk prediction**  
 
 ---
 
