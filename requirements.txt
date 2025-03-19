@@ -1,3 +1,5 @@
+these are the required python libraries to run the project
+
 pandas
 numpy
 matplotlib
